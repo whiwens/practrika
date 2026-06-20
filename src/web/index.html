@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Визуализатор алгоритмов на графах</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">⟁</span>
+        <div class="brand-text">
+          <h1>Визуализатор алгоритмов на графах</h1>
+          <span class="brand-sub">вариант А-03 · ВВГУ · БИС-24-3</span>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button id="btn-clear" class="btn btn-ghost">Очистить холст</button>
+        <button id="btn-export" class="btn btn-ghost">Экспорт в JSON</button>
+        <label class="btn btn-ghost" for="import-input">Импорт
+          <input type="file" id="import-input" accept="application/json" hidden>
+        </label>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="canvas-pane">
+        <div class="canvas-toolbar">
+          <button id="tool-node" class="tool active" data-tool="node">
+            <span class="tool-dot"></span> Добавить вершину
+          </button>
+          <button id="tool-edge" class="tool" data-tool="edge">
+            <span class="tool-line"></span> Добавить ребро
+          </button>
+          <span class="hint" id="canvas-hint">Клик по холсту создаёт вершину</span>
+        </div>
+        <canvas id="graph-canvas" width="900" height="560"></canvas>
+        <div class="status-bar">
+          <span id="graph-stats">0 вершин · 0 рёбер</span>
+          <span id="run-status" class="run-status"></span>
+        </div>
+      </section>
+
+      <aside class="control-panel">
+        <div class="panel-block">
+          <h2>Алгоритм</h2>
+          <select id="algorithm-select">
+            <option value="bfs">BFS — обход в ширину</option>
+            <option value="dfs">DFS — обход в глубину</option>
+            <option value="dijkstra">Дейкстра — кратчайшие пути</option>
+            <option value="prim">Прим — мин. остовное дерево</option>
+            <option value="kruskal">Краскал — мин. остовное дерево</option>
+          </select>
+
+          <div id="start-node-row" class="field-row">
+            <label for="start-node-select">Стартовая вершина</label>
+            <select id="start-node-select"></select>
+          </div>
+
+          <button id="btn-run" class="btn btn-primary">Старт</button>
+        </div>
+
+        <div class="panel-block">
+          <h2>Воспроизведение</h2>
+          <div class="player-controls">
+            <button id="btn-step-back" class="icon-btn" title="Шаг назад">⟨</button>
+            <button id="btn-play" class="icon-btn icon-btn-wide" title="Автовоспроизведение">▶ Играть</button>
+            <button id="btn-step-fwd" class="icon-btn" title="Шаг вперёд">⟩</button>
+          </div>
+          <div class="field-row">
+            <label for="speed-range">Скорость</label>
+            <input type="range" id="speed-range" min="100" max="2000" value="700" step="100">
+          </div>
+          <div class="step-progress">
+            <span id="step-counter">шаг 0 / 0</span>
+          </div>
+        </div>
+
+        <div class="panel-block panel-block-grow">
+          <h2>Результат</h2>
+          <div id="result-output" class="result-output">
+            <p class="placeholder">Постройте граф и нажмите «Старт», чтобы увидеть результат.</p>
+          </div>
+        </div>
+
+        <div class="panel-block">
+          <h2>Примеры графов</h2>
+          <div class="sample-buttons">
+            <button class="btn btn-ghost btn-small" data-sample="small_undirected">Малый граф</button>
+            <button class="btn btn-ghost btn-small" data-sample="disconnected">Несвязный</button>
+            <button class="btn btn-ghost btn-small" data-sample="random_medium">Случайный (20)</button>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

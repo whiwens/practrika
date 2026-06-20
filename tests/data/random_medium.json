@@ -1,0 +1,382 @@
+{
+  "directed": false,
+  "nodes": [
+    {
+      "id": "N0",
+      "x": 511.541438766307,
+      "y": 15.00645313360016
+    },
+    {
+      "id": "N1",
+      "x": 220.0234546952954,
+      "y": 133.92644288929364
+    },
+    {
+      "id": "N2",
+      "x": 589.1769713312099,
+      "y": 406.01969245374676
+    },
+    {
+      "id": "N3",
+      "x": 713.7436541638763,
+      "y": 52.16329957764969
+    },
+    {
+      "id": "N4",
+      "x": 337.53745574821636,
+      "y": 17.878331662842207
+    },
+    {
+      "id": "N5",
+      "x": 174.9103798428827,
+      "y": 303.2131728620174
+    },
+    {
+      "id": "N6",
+      "x": 21.2287757470909,
+      "y": 119.3025904119891
+    },
+    {
+      "id": "N7",
+      "x": 519.9075502236186,
+      "y": 326.96488836193
+    },
+    {
+      "id": "N8",
+      "x": 176.35249763255734,
+      "y": 353.55941032554523
+    },
+    {
+      "id": "N9",
+      "x": 647.5443653422614,
+      "y": 3.89925580683661
+    },
+    {
+      "id": "N10",
+      "x": 644.6554014662463,
+      "y": 418.8836369929361
+    },
+    {
+      "id": "N11",
+      "x": 272.2004132143935,
+      "y": 93.28769988706892
+    },
+    {
+      "id": "N12",
+      "x": 765.7704577654249,
+      "y": 201.95672706757605
+    },
+    {
+      "id": "N13",
+      "x": 74.19667470411832,
+      "y": 58.02982610007841
+    },
+    {
+      "id": "N14",
+      "x": 677.9954930779678,
+      "y": 362.2356188201346
+    },
+    {
+      "id": "N15",
+      "x": 645.7026186195042,
+      "y": 437.83907201629074
+    },
+    {
+      "id": "N16",
+      "x": 428.9824731637606,
+      "y": 583.8694583876223
+    },
+    {
+      "id": "N17",
+      "x": 302.82750176668276,
+      "y": 331.2243787639362
+    },
+    {
+      "id": "N18",
+      "x": 663.5237314023959,
+      "y": 371.11185141854764
+    },
+    {
+      "id": "N19",
+      "x": 689.3655202486218,
+      "y": 346.4112871540572
+    }
+  ],
+  "edges": [
+    {
+      "source": "N0",
+      "target": "N10",
+      "weight": 5.81
+    },
+    {
+      "source": "N0",
+      "target": "N8",
+      "weight": 3.43
+    },
+    {
+      "source": "N0",
+      "target": "N12",
+      "weight": 7.16
+    },
+    {
+      "source": "N0",
+      "target": "N11",
+      "weight": 8.96
+    },
+    {
+      "source": "N0",
+      "target": "N17",
+      "weight": 7.5
+    },
+    {
+      "source": "N1",
+      "target": "N14",
+      "weight": 7.8
+    },
+    {
+      "source": "N1",
+      "target": "N4",
+      "weight": 6.63
+    },
+    {
+      "source": "N1",
+      "target": "N15",
+      "weight": 4.27
+    },
+    {
+      "source": "N2",
+      "target": "N8",
+      "weight": 2.38
+    },
+    {
+      "source": "N2",
+      "target": "N4",
+      "weight": 7.59
+    },
+    {
+      "source": "N3",
+      "target": "N6",
+      "weight": 6.05
+    },
+    {
+      "source": "N3",
+      "target": "N9",
+      "weight": 1.19
+    },
+    {
+      "source": "N3",
+      "target": "N12",
+      "weight": 7.37
+    },
+    {
+      "source": "N3",
+      "target": "N13",
+      "weight": 1.61
+    },
+    {
+      "source": "N3",
+      "target": "N14",
+      "weight": 3.97
+    },
+    {
+      "source": "N4",
+      "target": "N15",
+      "weight": 4.56
+    },
+    {
+      "source": "N4",
+      "target": "N6",
+      "weight": 5.13
+    },
+    {
+      "source": "N4",
+      "target": "N10",
+      "weight": 6.93
+    },
+    {
+      "source": "N4",
+      "target": "N14",
+      "weight": 6.88
+    },
+    {
+      "source": "N4",
+      "target": "N16",
+      "weight": 7.55
+    },
+    {
+      "source": "N4",
+      "target": "N18",
+      "weight": 2.72
+    },
+    {
+      "source": "N5",
+      "target": "N8",
+      "weight": 9.22
+    },
+    {
+      "source": "N5",
+      "target": "N6",
+      "weight": 2.65
+    },
+    {
+      "source": "N5",
+      "target": "N9",
+      "weight": 8.27
+    },
+    {
+      "source": "N5",
+      "target": "N11",
+      "weight": 6.87
+    },
+    {
+      "source": "N5",
+      "target": "N13",
+      "weight": 1.84
+    },
+    {
+      "source": "N6",
+      "target": "N8",
+      "weight": 4.51
+    },
+    {
+      "source": "N6",
+      "target": "N19",
+      "weight": 7.62
+    },
+    {
+      "source": "N7",
+      "target": "N12",
+      "weight": 5.59
+    },
+    {
+      "source": "N7",
+      "target": "N8",
+      "weight": 3.82
+    },
+    {
+      "source": "N7",
+      "target": "N9",
+      "weight": 5.29
+    },
+    {
+      "source": "N7",
+      "target": "N15",
+      "weight": 1.61
+    },
+    {
+      "source": "N8",
+      "target": "N15",
+      "weight": 3.41
+    },
+    {
+      "source": "N8",
+      "target": "N10",
+      "weight": 1.74
+    },
+    {
+      "source": "N8",
+      "target": "N18",
+      "weight": 6.81
+    },
+    {
+      "source": "N9",
+      "target": "N18",
+      "weight": 4.26
+    },
+    {
+      "source": "N9",
+      "target": "N12",
+      "weight": 6.59
+    },
+    {
+      "source": "N9",
+      "target": "N14",
+      "weight": 5.84
+    },
+    {
+      "source": "N9",
+      "target": "N16",
+      "weight": 4.14
+    },
+    {
+      "source": "N9",
+      "target": "N17",
+      "weight": 3.2
+    },
+    {
+      "source": "N10",
+      "target": "N14",
+      "weight": 2.47
+    },
+    {
+      "source": "N10",
+      "target": "N11",
+      "weight": 3.06
+    },
+    {
+      "source": "N10",
+      "target": "N16",
+      "weight": 8.25
+    },
+    {
+      "source": "N10",
+      "target": "N19",
+      "weight": 8.9
+    },
+    {
+      "source": "N11",
+      "target": "N17",
+      "weight": 2.91
+    },
+    {
+      "source": "N12",
+      "target": "N18",
+      "weight": 2.26
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "weight": 7.72
+    },
+    {
+      "source": "N12",
+      "target": "N17",
+      "weight": 6.71
+    },
+    {
+      "source": "N12",
+      "target": "N19",
+      "weight": 4.0
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "weight": 9.82
+    },
+    {
+      "source": "N13",
+      "target": "N19",
+      "weight": 9.51
+    },
+    {
+      "source": "N14",
+      "target": "N16",
+      "weight": 1.32
+    },
+    {
+      "source": "N15",
+      "target": "N16",
+      "weight": 4.28
+    },
+    {
+      "source": "N15",
+      "target": "N19",
+      "weight": 4.22
+    },
+    {
+      "source": "N16",
+      "target": "N19",
+      "weight": 9.08
+    }
+  ]
+}
